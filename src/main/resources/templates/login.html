@@ -1,0 +1,35 @@
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="http://im-img.qq.com/pcqq/css/210/pc_6_0.css" />
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+</head>
+<meta charset="UTF-8" />
+<body>
+			<div id="container" class="mpage" style="display:flex;/*Flex布局*/display: -webkit-flex; /* Safari */align-items:center;/*指定垂直居中*/">
+		<div id="anitOut" class="anitOut"></div>
+        <div class="login_box" style="width:600px;height:300px;z-index: 785;background:gren;position:relative;margin:0 auto;">
+            <form class="form-horizontal" role="form" action="/addlogin" method="post" name="loginfrom">
+              <div class="form-group">
+                <div class="col-sm-offset-3 col-sm-6 ">
+                  <input type="email" class="form-control" id="inputUser" name="loginfrom" placeholder="用户名"/>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-3 col-sm-6">
+                  <input type="password" class="form-control" id="inputPassword" name="password" placeholder="密码"/>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-3 col-sm-6">
+                  <button type="submit" class="btn btn-primary btn-lg btn-block" href="index.html">登录</button>
+                </div>
+              </div>
+              <p class="ljzc" style="margin-left:63%;"><a href="register.html" style="color:#fff;">没有帐号?</a></p>
+            </form>
+        </div>
+	</div>
+	<script type="text/javascript" src="http://im-img.qq.com/pcqq/js/150/jquery.min.js"></script>
+<script th:src="@{/js/bg.js}"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
